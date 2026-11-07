@@ -1,0 +1,33 @@
+# Environment variables & secrets (CRITICAL: Never commit API keys!)
+.env
+*.env
+!.env.example
+
+# Local storage, uploads & databases
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test_answer.txt
+*.log
